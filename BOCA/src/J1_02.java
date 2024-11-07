@@ -1,4 +1,4 @@
-public class J2_02 {
+public class J1_02 {
     
     public static void main(String[] args) throws Exception {
 
