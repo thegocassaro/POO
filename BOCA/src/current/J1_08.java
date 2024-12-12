@@ -119,7 +119,7 @@ class Departamento{
   public void removeFuncionario(int idx){
 
       for(int i=idx; i<n_funcionarios - 1; i++){
-        funcionarios[idx] = funcionarios[idx + 1];
+        funcionarios[i] = funcionarios[i + 1];
       }
 
       n_funcionarios--;
