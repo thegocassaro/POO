@@ -1,7 +1,11 @@
+//Essa bosta funciona normalmente sem precisar de declarar um package, pois
+//o java na hora de compilar assume que esse diretorio (src/J1_07) eh o padrao pra facilitar
+//o processo. Entao como eu so quero compilar essa main separado do resto dos 
+//codigos, tudo bem, so nao sei ainda pq o vscode nao reclama aqui mas reclama no J1_08.
+
 import java.util.Scanner;
 
-// The main method must be in a class named "Main".
-class Main {
+class J1_07 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
